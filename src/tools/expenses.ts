@@ -62,7 +62,7 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
 
   server.tool(
     "create_expense",
-    "Create a new expense (uitgave/inkoopfactuur). For reverse-charged VAT (verlegde BTW): 1) set vat_type_id to the vat_reverse_charged ID on each invoice_line, 2) set vat_number on the expense (supplier's VAT number, required for reverse charge).",
+    "Create a new expense (uitgave/inkoopfactuur). For reverse-charged VAT (verlegde BTW): 1) ensure the supplier contact has a non-NL country_code and vat_number set (use update_contact first if needed), 2) set vat_type_id to the vat_reverse_charged ID on each invoice_line.",
     {
       company_id: z.string().describe("Company ID"),
       expense: z.object({
@@ -70,7 +70,6 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
         type_account_id: z.number().optional().describe("Expense type account ID"),
         currency: z.string().optional().describe("ISO 4217 lowercase"),
         contact_id: z.number().optional().describe("Supplier contact ID"),
-        vat_number: z.string().optional().describe("Supplier VAT number. REQUIRED when using vat_reverse_charged on invoice lines."),
         contact: z.object({
           is_individual: z.boolean().optional(),
           is_supplier: z.boolean().optional(),
@@ -80,9 +79,9 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
           address: z.string().optional(),
           zipcode: z.string().optional(),
           city: z.string().optional(),
-          country_code: z.string().optional(),
+          country_code: z.string().optional().describe("ISO 3166-1 alpha-2. MUST be non-NL for reverse-charged VAT."),
           kvk_number: z.string().optional(),
-          vat_number: z.string().optional(),
+          vat_number: z.string().optional().describe("Supplier VAT number. REQUIRED for reverse-charged VAT."),
         }).optional().describe("Inline new contact"),
         invoice_lines: z.array(expenseLineSchema).optional(),
       }),
@@ -98,7 +97,7 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
 
   server.tool(
     "update_expense",
-    "Update an existing expense. For reverse-charged VAT, set vat_number (supplier's VAT number) and use vat_reverse_charged vat_type_id on invoice lines.",
+    "Update an existing expense. For reverse-charged VAT (verlegde BTW): ensure the supplier contact has a non-NL country_code and vat_number (use update_contact if needed), then set vat_type_id to vat_reverse_charged on invoice lines.",
     {
       company_id: z.string().describe("Company ID"),
       expense_id: z.string().describe("Expense ID"),
@@ -107,7 +106,6 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
         type_account_id: z.number().optional(),
         currency: z.string().optional(),
         contact_id: z.number().optional(),
-        vat_number: z.string().optional().describe("Supplier VAT number. REQUIRED when using vat_reverse_charged on invoice lines."),
         invoice_lines: z.array(expenseLineSchema).optional(),
       }),
     },
