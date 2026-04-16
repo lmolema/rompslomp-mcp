@@ -1,0 +1,338 @@
+- generic [active] [ref=e439]:
+  - navigation [ref=e440]:
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - link "Rompslomp | Hét gebruiksvriendelijke online boekhoudprogramma voor freelancers en zzp'ers.":
+          - /url: /
+        - text: 
+        - link " Terug" [ref=e443] [cursor=pointer]:
+          - /url: /ondernemingen/lemon-it/dashboard
+          - generic [ref=e444]: 
+          - generic [ref=e445]: Terug
+        - heading " Nieuwe uitgave" [level=1] [ref=e447]:
+          - generic [ref=e448]: 
+          - text: Nieuwe uitgave
+        - generic [ref=e449]:
+          - link "" [ref=e450] [cursor=pointer]:
+            - /url: /ondernemingen/lemon-it/notificaties
+            - generic [ref=e451]: 
+          - generic [ref=e453]: 
+      - text:          +           
+  - list [ref=e455]:
+    - listitem
+    - listitem [ref=e456]:
+      - link " Dashboard" [ref=e457] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/dashboard
+        - generic [ref=e458]:
+          - generic [ref=e460]: 
+          - generic [ref=e461]: Dashboard
+    - listitem [ref=e463]:
+      - link " Facturen" [ref=e464] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/inkomsten
+        - generic [ref=e465]:
+          - generic [ref=e467]: 
+          - generic [ref=e468]: Facturen
+    - listitem [ref=e470]:
+      - link " Offertes" [ref=e471] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/offertes
+        - generic [ref=e472]:
+          - generic [ref=e474]: 
+          - generic [ref=e475]: Offertes
+    - listitem [ref=e477]:
+      - link " Uitgaven" [ref=e478] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/kosten
+        - generic [ref=e479]:
+          - generic [ref=e481]: 
+          - generic [ref=e482]: Uitgaven
+    - listitem [ref=e484]:
+      - link " Uren & Ritten" [ref=e485] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/uren
+        - generic [ref=e486]:
+          - generic [ref=e488]: 
+          - generic [ref=e489]: Uren & Ritten
+    - listitem [ref=e491]:
+      - link " Contacten" [ref=e492] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/contacten
+        - generic [ref=e493]:
+          - generic [ref=e495]: 
+          - generic [ref=e496]: Contacten
+    - listitem [ref=e498]:
+      - link " Schoenendoos" [ref=e499] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/schoenendoos
+        - generic [ref=e500]:
+          - generic [ref=e502]: 
+          - generic [ref=e503]: Schoenendoos
+    - listitem [ref=e505]:
+      - link " Betalingen 250" [ref=e506] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/betalingen
+        - generic [ref=e507]:
+          - generic [ref=e509]: 
+          - generic [ref=e510]: Betalingen
+          - generic [ref=e512]: "250"
+    - listitem [ref=e513]:
+      - link " Boekhouding" [ref=e514] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/dashboard/balans
+        - generic [ref=e515]:
+          - generic [ref=e517]: 
+          - generic [ref=e518]: Boekhouding
+    - listitem [ref=e520]:
+      - link " Btw" [ref=e521] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/btw
+        - generic [ref=e522]:
+          - generic [ref=e524]: 
+          - generic [ref=e525]: Btw
+    - listitem [ref=e527]:
+      - link " Producten" [ref=e528] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/producten
+        - generic [ref=e529]:
+          - generic [ref=e531]: 
+          - generic [ref=e532]: Producten
+    - listitem [ref=e534]:
+      - link " Periodieke facturen" [ref=e535] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/contracts
+        - generic [ref=e536]:
+          - generic [ref=e538]: 
+          - generic [ref=e539]: Periodieke facturen
+    - listitem [ref=e541]:
+      - link " SEPA-incasso" [ref=e542] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/incassobatches
+        - generic [ref=e543]:
+          - generic [ref=e545]: 
+          - generic [ref=e546]: SEPA-incasso
+    - listitem [ref=e548]:
+      - link " Apps & Deals" [ref=e549] [cursor=pointer]:
+        - /url: /deals
+        - generic [ref=e550]:
+          - generic [ref=e552]: 
+          - generic [ref=e553]: Apps & Deals
+    - listitem [ref=e555]:
+      - link " Berichten" [ref=e556] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/berichten
+        - generic [ref=e557]:
+          - generic [ref=e559]: 
+          - generic [ref=e560]: Berichten
+    - listitem [ref=e562]:
+      - link " Boekhouder" [ref=e563] [cursor=pointer]:
+        - /url: /boekhouder-offerteaanvragen
+        - generic [ref=e564]:
+          - generic [ref=e566]: 
+          - generic [ref=e567]: Boekhouder
+    - listitem [ref=e569]:
+      - link " Instellingen" [ref=e570] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/instellingen
+        - generic [ref=e571]:
+          - generic [ref=e573]: 
+          - generic [ref=e574]: Instellingen
+  - generic [ref=e577]:
+    - generic:                  
+    - generic [ref=e578]:
+      - heading " Nieuwe uitgave" [level=1] [ref=e581]:
+        - generic [ref=e582]: 
+        - text: Nieuwe uitgave
+      - generic [ref=e584]:
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - text:  
+            - generic [ref=e587]: Uitgaveregels
+            - generic [ref=e588]:
+              - generic [ref=e589]:
+                - link "Exclusief btw" [ref=e590] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e591]: Exclusief btw
+                - link "Inclusief btw" [ref=e592] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e593]: Inclusief btw
+              - generic [ref=e594]:
+                - text: Voer je stuksprijzen meestal inclusief btw in? Geef dat dan aan bij
+                - link "instellingen" [ref=e595] [cursor=pointer]:
+                  - /url: /ondernemingen/lemon-it/instellingen/administration
+          - generic [ref=e596]:
+            - generic [ref=e597]:
+              - generic [ref=e599]: Aantal
+              - generic [ref=e601]: Beschrijving
+              - generic [ref=e603]:
+                - text: Stuksprijs
+                - generic [ref=e604]: excl. btw
+              - generic [ref=e606]: Btw
+              - generic [ref=e608]:
+                - text: Totaal
+                - generic [ref=e609]: excl. btw
+            - list [ref=e611]:
+              - listitem [ref=e612]:
+                - generic [ref=e614]: 
+                - spinbutton "Aantal" [ref=e618]: "1"
+                - generic [ref=e619]:
+                  - textbox "Beschrijving" [ref=e622]
+                  - text: 
+                - generic [ref=e626]:
+                  - generic [ref=e628]: 
+                  - textbox "Stuksprijs*" [ref=e629]:
+                    - /placeholder: 0,00
+                - generic [ref=e633]:
+                  - combobox "Btw-type*" [ref=e634]:
+                    - option "hoog (21.0%)" [selected]
+                    - option "laag (9.0%)"
+                    - option "0% (0.0%)"
+                    - option "vrijgesteld"
+                    - option "verlegd of buitenland"
+                  - combobox "hoog (21.0%)" [ref=e635] [cursor=pointer]:
+                    - generic [ref=e638]: hoog (21.0%)
+                    - text: 
+                - generic [ref=e639]: € 0,00
+                - list [ref=e640]:
+                  - listitem [ref=e641]:
+                    - link "" [ref=e642] [cursor=pointer]:
+                      - /url: "#"
+                    - text:        + 
+                - text: 
+            - generic [ref=e644]:
+              - link " Btw-aanpassing" [ref=e645] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e646]: 
+                - text: Btw-aanpassing
+              - link " Kies product" [ref=e647] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e648]: 
+                - text: Kies product
+              - link "+ Nieuwe regel" [ref=e649] [cursor=pointer]:
+                - /url: "#"
+            - text: 
+            - separator [ref=e650]
+            - generic [ref=e651]:
+              - generic [ref=e653]:
+                - text: Subtotaal excl. btw
+                - generic [ref=e654]: € 0,00
+              - generic [ref=e655]:
+                - text: Btw
+                - generic [ref=e656]: € 0,00
+              - generic [ref=e657]:
+                - text: Totaal incl. btw
+                - generic [ref=e658]: € 0,00
+        - generic [ref=e660]:
+          - generic [ref=e661]:   Kosten
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - generic [ref=e667]: Uitgavedatum:*
+                - generic [ref=e669]:
+                  - textbox "Uitgavedatum:*" [ref=e670]: 16/04/2026
+                  - generic [ref=e672] [cursor=pointer]: 
+              - generic [ref=e674]:
+                - generic [ref=e676]: Kostenrekening:*
+                - generic [ref=e677]:
+                  - generic [ref=e678]:
+                    - combobox "Kostenrekening:*" [ref=e679]:
+                      - option [selected]
+                      - option "Kosten • Betalingsverschillen"
+                      - option "Kosten • Overig"
+                      - option "Activa • Vlottende activa • Voorraad"
+                      - option "Activa • Vaste activa • Inventaris"
+                    - combobox "Niets geselecteerd" [ref=e680] [cursor=pointer]:
+                      - generic [ref=e683]: Niets geselecteerd
+                      - text: 
+                  - generic [ref=e684]:
+                    - link "Maak een nieuwe rekening aan" [ref=e685] [cursor=pointer]:
+                      - /url: "#"
+                    - generic [ref=e686]:
+                      - text: of
+                      - link "kies uit alle rekeningen" [ref=e687] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e688]:
+              - generic [ref=e691]:
+                - generic [ref=e693]:
+                  - text: Aftrekbaarheid
+                  - generic [ref=e695] [cursor=pointer]: 
+                - generic [ref=e697]:
+                  - textbox "Aftrekbaarheid " [ref=e698]: "100"
+                  - generic [ref=e699]: "%"
+              - generic [ref=e704]:
+                - generic [ref=e707] [cursor=pointer]:
+                  - checkbox "De btw is aftrekbaar " [checked] [ref=e708]
+                  - text: De btw is aftrekbaar
+                  - generic [ref=e710]: 
+                - text: 
+              - generic [ref=e712]:
+                - generic [ref=e713]: 
+                - link "Aftrekbaarheid van kosten instellen" [ref=e715] [cursor=pointer]:
+                  - /url: https://rompslomp.nl/support/uitgaven/deels-aftrekbare-kosten
+        - generic [ref=e717]:
+          - generic [ref=e718]:   Contact
+          - generic [ref=e719]:
+            - paragraph [ref=e720]: Dit is optioneel als er geen btw is verlegd. Als je contact zich in het buitenland bevindt dan moet je dit wel invullen i.v.m. het correct berekenen van de btw.
+            - generic [ref=e722]:
+              - generic [ref=e726]:
+                - combobox [ref=e727]:
+                  - option "Kies een bestaand contact..." [selected]
+                  - option "Google Cloud EMEA Limited"
+                  - option "Leap Netherlands B.V."
+                  - option "Microsoft Ireland Operations Ltd"
+                  - option "Timpel"
+                  - option "Voorbeeldklant B.V."
+                  - option "Ziggo"
+                - combobox "Kies een bestaand contact..." [ref=e728] [cursor=pointer]:
+                  - generic [ref=e731]: Kies een bestaand contact...
+                  - text: 
+              - link "+ Nieuw contact" [ref=e733] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e734]: +
+                - text: Nieuw contact
+        - text:   
+        - generic [ref=e735]:
+          - generic [ref=e736]:   Eigenschappen
+          - generic [ref=e737]:
+            - generic [ref=e738]:
+              - generic [ref=e740]: "Titel (optioneel):"
+              - textbox "Titel (optioneel):" [ref=e742]
+            - generic [ref=e743]:
+              - generic [ref=e745]: "Factuurnummer:"
+              - textbox "Factuurnummer:" [ref=e747]
+            - generic [ref=e748]:
+              - generic [ref=e750]: "Eigen vermogen:"
+              - generic [ref=e751]:
+                - generic [ref=e752]:
+                  - combobox "Eigen vermogen:" [ref=e753]:
+                    - option [selected]
+                    - option "Passiva • Eigen vermogen • KNAB"
+                    - option "Passiva • Eigen vermogen • Oude bedrijfsrekening"
+                  - combobox "Niets geselecteerd" [ref=e754] [cursor=pointer]:
+                    - generic [ref=e757]: Niets geselecteerd
+                    - text: 
+                - generic [ref=e758]: Normaal gesproken laat je deze leeg, dan zijn de kosten voor iedereen. Vul dit veld alleen in als deze kosten direct van 1 persoon zijn eigen vermogen moeten worden afgetrokken.
+            - generic [ref=e759]:
+              - generic [ref=e761]:
+                - generic [ref=e763]: Schoenendoos bestand
+                - generic [ref=e764]:
+                  - generic [ref=e765]:
+                    - combobox "Schoenendoos bestand" [ref=e766]:
+                      - option [selected]
+                      - option "/schoenendoos/invoice_transloadit-39158-sdbTun-10120.pdf"
+                      - option "/schoenendoos/Gerstaecker.png"
+                      - option "/schoenendoos/3754851871.pdf"
+                      - option "/schoenendoos/order_F0000_2110_0006_1561_(1).pdf"
+                      - option "/schoenendoos/Invoice_202408.pdf"
+                      - option "/schoenendoos/c2cf6468-3e1e-4270-9c0f-190cd63dea75-einvoice.xml"
+                    - combobox "Niets geselecteerd" [ref=e767] [cursor=pointer]:
+                      - generic [ref=e770]: Niets geselecteerd
+                      - text: 
+                  - generic [ref=e771]: Sleep een bestand op dit scherm om te uploaden of selecteer een bestand uit de schoenendoos.
+              - generic [ref=e773] [cursor=pointer]:
+                - text: Uploaden
+                - button "Choose File" [ref=e774]
+        - generic [ref=e776]:
+          - generic [ref=e777] [cursor=pointer]:
+            - generic [ref=e778]:
+              - text: 
+              - generic "Openen" [ref=e779]: 
+            - text: Vooruitbetaalde kosten of nog te betalen kosten?
+          - text: 
+        - generic [ref=e783] [cursor=pointer]:
+          - generic [ref=e784]:
+            - text: 
+            - generic "Openen" [ref=e785]: 
+          - text: Betalingsstatus
+        - group [ref=e786]:
+          - button "Maak uitgave aan" [ref=e787] [cursor=pointer]
+          - generic [ref=e788]:
+            - text: of
+            - link "annuleer" [ref=e789] [cursor=pointer]:
+              - /url: /ondernemingen/lemon-it/kosten

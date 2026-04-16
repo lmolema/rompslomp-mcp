@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Rompslomp | Hét gebruiksvriendelijke online boekhoudprogramma voor freelancers en zzp'ers." [ref=e5] [cursor=pointer]:
+        - /url: /
+      - button "" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: 
+  - generic [ref=e9]:
+    - generic:         
+    - generic [ref=e13]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:   Inloggen bij Rompslomp
+        - generic [ref=e17]:
+          - textbox "E-mailadres" [ref=e20]
+          - textbox "Wachtwoord" [ref=e23]
+          - generic [ref=e24]:
+            - link "Wachtwoord vergeten?" [ref=e26] [cursor=pointer]:
+              - /url: /password/new
+              - generic [ref=e27]: Wachtwoord vergeten?
+            - generic [ref=e29]:
+              - checkbox "Onthouden" [ref=e30]
+              - text: Onthouden
+          - paragraph [ref=e34]:
+            - button "Inloggen" [disabled] [ref=e35]
+      - generic [ref=e37]:
+        - generic [ref=e38]:   Nog geen account?
+        - generic [ref=e39]:
+          - text: Rompslomp gelooft erin dat jij als ondernemer altijd inzicht en controle wilt in je boekhouding, zonder dat je er veel tijd mee kwijt bent om deze bij te houden.
+          - link " Meld je aan!" [ref=e40] [cursor=pointer]:
+            - /url: /aanmelden
+            - generic [ref=e41]: 
+            - text: Meld je aan!
+      - strong [ref=e42]: Bevestigings-e-mail niet ontvangen?
+      - link "Vraag de e-mail opnieuw aan" [ref=e43] [cursor=pointer]:
+        - /url: /confirmation/new
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - strong [ref=e51]: Rompslomp.nl B.V.
+          - listitem [ref=e52]: Grebbeberglaan 15 - 5B
+          - listitem [ref=e53]: 3527 VX Utrecht
+          - listitem [ref=e54]:
+            - generic [ref=e55]: 
+            - link "Contact" [ref=e56] [cursor=pointer]:
+              - /url: /feedback
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "Algemene voorwaarden" [ref=e59] [cursor=pointer]:
+              - /url: https://rompslomp.nl/algemenevoorwaarden/
+          - listitem [ref=e60]:
+            - link "Cookie-instellingen" [ref=e61] [cursor=pointer]:
+              - /url: "javascript: Cookiebot.renew()"
+          - listitem [ref=e62]:
+            - link "Privacy statement" [ref=e63] [cursor=pointer]:
+              - /url: https://rompslomp.nl/privacy/
+          - listitem [ref=e64]:
+            - link "Responsible disclosure" [ref=e65] [cursor=pointer]:
+              - /url: https://www.visma.com/trust-centre/security/products-and-services/bug-bounty-and-responsible-disclosure/
+          - listitem [ref=e66]:
+            - link "Disclaimer" [ref=e67] [cursor=pointer]:
+              - /url: https://rompslomp.nl/disclaimer/
+      - generic [ref=e68]:
+        - strong [ref=e69]: Volg Rompslomp op
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "" [ref=e72] [cursor=pointer]:
+              - /url: https://www.facebook.com/rompslompboekhouding
+              - generic [ref=e73]: 
+          - listitem [ref=e74]:
+            - link "" [ref=e75] [cursor=pointer]:
+              - /url: https://www.instagram.com/rompslomp.nl
+              - generic [ref=e76]: 
+          - listitem [ref=e77]:
+            - link "" [ref=e78] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rompslomp
+              - generic [ref=e79]: 
+        - strong [ref=e80]: Download de Rompslomp app
+        - generic [ref=e81]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.rompslomp_react&tm_source%3Dfooter%26utm_medium%3Drompslomp-site
+            - img [ref=e84]
+          - link [ref=e86] [cursor=pointer]:
+            - /url: https://itunes.apple.com/nl/app/rompslomp/id1063777375?mt=8
+            - img [ref=e87]
+        - img [ref=e88]
+    - paragraph [ref=e91]: Hét makkelijkste boekhoudprogramma en factuurprogramma voor ondernemers - © Rompslomp.nl BV, 2026

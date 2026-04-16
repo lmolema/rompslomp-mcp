@@ -1,0 +1,31 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Rompslomp | Hét gebruiksvriendelijke online boekhoudprogramma voor freelancers en zzp'ers.":
+          - /url: /
+        - generic [ref=e8]: 
+      - text:              
+  - generic [ref=e9]:
+    - generic:         
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - heading "Niet gevonden..." [level=1] [ref=e15]
+        - paragraph [ref=e16]: "Helaas bestaat de pagina niet (meer). Hopelijk kunnen we je wel verder helpen! Probeer één van de volgende mogelijkheden:"
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - link "Ga naar de Rompslomp.nl homepage" [ref=e19] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e20]:
+            - link "Bekijk onze supportsectie met handige info over het gebruik van Rompslomp.nl" [ref=e21] [cursor=pointer]:
+              - /url: /support
+          - listitem [ref=e22]:
+            - link "Maak hier je gratis Rompslomp.nl account aan" [ref=e23] [cursor=pointer]:
+              - /url: /aanmelden
+          - listitem [ref=e24]:
+            - link "Al lid van Rompslomp? Log hier in" [ref=e25] [cursor=pointer]:
+              - /url: /inloggen
+          - listitem [ref=e26]:
+            - link "Vragen? Neem contact met ons op" [ref=e27] [cursor=pointer]:
+              - /url: /feedback
+      - img [ref=e29]

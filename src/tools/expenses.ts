@@ -62,7 +62,7 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
 
   server.tool(
     "create_expense",
-    "Create a new expense (uitgave/inkoopfactuur). For reverse-charged VAT (verlegde BTW): 1) ensure the supplier contact has a non-NL country_code and vat_number set (use update_contact first if needed), 2) set vat_type_id to the vat_reverse_charged ID on each invoice_line.",
+    "Create a new expense (uitgave/inkoopfactuur). NOTE: Reverse-charged VAT (verlegde BTW) is NOT supported by the Rompslomp public API — the required 'vat_reverse_charged' field is not whitelisted. Expenses with verlegde BTW must be created manually in the Rompslomp web UI. For regular expenses, set vat_type_id on each invoice_line (use list_vat_types to find IDs).",
     {
       company_id: z.string().describe("Company ID"),
       expense: z.object({
@@ -97,7 +97,7 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
 
   server.tool(
     "update_expense",
-    "Update an existing expense. For reverse-charged VAT (verlegde BTW): ensure the supplier contact has a non-NL country_code and vat_number (use update_contact if needed), then set vat_type_id to vat_reverse_charged on invoice lines.",
+    "Update an existing expense. NOTE: Reverse-charged VAT (verlegde BTW) is NOT supported by the Rompslomp public API. Expenses with verlegde BTW must be managed via the Rompslomp web UI.",
     {
       company_id: z.string().describe("Company ID"),
       expense_id: z.string().describe("Expense ID"),

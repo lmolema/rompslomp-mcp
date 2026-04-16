@@ -1,0 +1,363 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Rompslomp | Hét gebruiksvriendelijke online boekhoudprogramma voor freelancers en zzp'ers.":
+          - /url: /
+        - button "" [ref=e5] [cursor=pointer]:
+          - generic [ref=e6]: 
+        - heading " Lemon IT" [level=1] [ref=e8]:
+          - generic [ref=e9]: 
+          - text: Lemon IT
+        - generic [ref=e10]:
+          - link "" [ref=e11] [cursor=pointer]:
+            - /url: /ondernemingen/lemon-it/notificaties
+            - generic [ref=e12]: 
+          - generic [ref=e14]: 
+      - text:          +           
+  - list [ref=e16]:
+    - listitem
+    - listitem [ref=e17]:
+      - link " Dashboard" [ref=e18] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/dashboard
+        - generic [ref=e19]:
+          - generic [ref=e21]: 
+          - generic [ref=e22]: Dashboard
+    - listitem [ref=e24]:
+      - link " Facturen" [ref=e25] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/inkomsten
+        - generic [ref=e26]:
+          - generic [ref=e28]: 
+          - generic [ref=e29]: Facturen
+    - listitem [ref=e31]:
+      - link " Offertes" [ref=e32] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/offertes
+        - generic [ref=e33]:
+          - generic [ref=e35]: 
+          - generic [ref=e36]: Offertes
+    - listitem [ref=e38]:
+      - link " Uitgaven" [ref=e39] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/kosten
+        - generic [ref=e40]:
+          - generic [ref=e42]: 
+          - generic [ref=e43]: Uitgaven
+    - listitem [ref=e45]:
+      - link " Uren & Ritten" [ref=e46] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/uren
+        - generic [ref=e47]:
+          - generic [ref=e49]: 
+          - generic [ref=e50]: Uren & Ritten
+    - listitem [ref=e52]:
+      - link " Contacten" [ref=e53] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/contacten
+        - generic [ref=e54]:
+          - generic [ref=e56]: 
+          - generic [ref=e57]: Contacten
+    - listitem [ref=e59]:
+      - link " Schoenendoos" [ref=e60] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/schoenendoos
+        - generic [ref=e61]:
+          - generic [ref=e63]: 
+          - generic [ref=e64]: Schoenendoos
+    - listitem [ref=e66]:
+      - link " Betalingen 250" [ref=e67] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/betalingen
+        - generic [ref=e68]:
+          - generic [ref=e70]: 
+          - generic [ref=e71]: Betalingen
+          - generic [ref=e73]: "250"
+    - listitem [ref=e74]:
+      - link " Boekhouding" [ref=e75] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/dashboard/balans
+        - generic [ref=e76]:
+          - generic [ref=e78]: 
+          - generic [ref=e79]: Boekhouding
+    - listitem [ref=e81]:
+      - link " Btw" [ref=e82] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/btw
+        - generic [ref=e83]:
+          - generic [ref=e85]: 
+          - generic [ref=e86]: Btw
+    - listitem [ref=e88]:
+      - link " Producten" [ref=e89] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/producten
+        - generic [ref=e90]:
+          - generic [ref=e92]: 
+          - generic [ref=e93]: Producten
+    - listitem [ref=e95]:
+      - link " Periodieke facturen" [ref=e96] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/contracts
+        - generic [ref=e97]:
+          - generic [ref=e99]: 
+          - generic [ref=e100]: Periodieke facturen
+    - listitem [ref=e102]:
+      - link " SEPA-incasso" [ref=e103] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/incassobatches
+        - generic [ref=e104]:
+          - generic [ref=e106]: 
+          - generic [ref=e107]: SEPA-incasso
+    - listitem [ref=e109]:
+      - link " Apps & Deals" [ref=e110] [cursor=pointer]:
+        - /url: /deals
+        - generic [ref=e111]:
+          - generic [ref=e113]: 
+          - generic [ref=e114]: Apps & Deals
+    - listitem [ref=e116]:
+      - link " Berichten" [ref=e117] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/berichten
+        - generic [ref=e118]:
+          - generic [ref=e120]: 
+          - generic [ref=e121]: Berichten
+    - listitem [ref=e123]:
+      - link " Boekhouder" [ref=e124] [cursor=pointer]:
+        - /url: /boekhouder-offerteaanvragen
+        - generic [ref=e125]:
+          - generic [ref=e127]: 
+          - generic [ref=e128]: Boekhouder
+    - listitem [ref=e130]:
+      - link " Instellingen" [ref=e131] [cursor=pointer]:
+        - /url: /ondernemingen/lemon-it/instellingen
+        - generic [ref=e132]:
+          - generic [ref=e134]: 
+          - generic [ref=e135]: Instellingen
+  - generic [ref=e138]:
+    - generic:         
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e142]:
+          - link "+ Factuur" [ref=e144] [cursor=pointer]:
+            - /url: /ondernemingen/lemon-it/inkomsten/new?back=dashboard
+            - generic [ref=e145]: +
+            - text: Factuur
+          - link "+ Uitgave" [ref=e147] [cursor=pointer]:
+            - /url: /ondernemingen/lemon-it/kosten/new?back=dashboard
+            - generic [ref=e148]: +
+            - text: Uitgave
+        - heading " Lemon IT" [level=1] [ref=e150]:
+          - generic [ref=e151]: 
+          - text: Lemon IT
+      - generic [ref=e152]:
+        - generic [ref=e154]:
+          - link "Laatste facturen " [ref=e155] [cursor=pointer]:
+            - /url: /ondernemingen/lemon-it/inkomsten
+          - table [ref=e157]:
+            - rowgroup [ref=e158]:
+              - row "Datum Contact Omschrijving Bedrag" [ref=e159]:
+                - columnheader "Datum" [ref=e160]
+                - columnheader "Contact" [ref=e161]
+                - columnheader "Omschrijving" [ref=e162]
+                - columnheader [ref=e163]
+                - columnheader [ref=e164]
+                - columnheader "Bedrag" [ref=e165]
+              - 'row "01/03/2026 2026030001 Inviplay B.V. Netlify kosten Inviplay Q4 2025 Nog niet betaald: verlopen Overig € 50,33 € 60,90 incl. btw" [ref=e166] [cursor=pointer]':
+                - cell "01/03/2026 2026030001" [ref=e167]:
+                  - text: 01/03/2026
+                  - link "2026030001" [ref=e168]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/8349a71eff302b69308b1c9d9a9fc95c2d7588f2
+                - cell "Inviplay B.V." [ref=e169]:
+                  - link "Inviplay B.V." [ref=e171]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/search?search%5Bclient_id%5D=4a6296bcef2f6c57a82af47909fe29ca01503e16
+                - 'cell "Netlify kosten Inviplay Q4 2025 Nog niet betaald: verlopen" [ref=e172]':
+                  - link "Netlify kosten Inviplay Q4 2025" [ref=e173]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/8349a71eff302b69308b1c9d9a9fc95c2d7588f2
+                  - 'link "Nog niet betaald: verlopen" [ref=e176]':
+                    - /url: /ondernemingen/lemon-it/inkomsten/8349a71eff302b69308b1c9d9a9fc95c2d7588f2/invoice_payments
+                - cell [ref=e177]
+                - cell "Overig" [ref=e178]:
+                  - link "Overig" [ref=e180]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/search?search%5Btype_account_id%5D=1930337
+                - cell "€ 50,33 € 60,90 incl. btw" [ref=e181]:
+                  - generic [ref=e182]: € 50,33
+                  - generic [ref=e183]:
+                    - text: € 60,90
+                    - text: incl. btw
+              - 'row "01/03/2026 2026030002 Inviplay B.V. 1Password kosten Inviplay Q4 2025 Nog niet betaald: verlopen Overig € 52,78 € 63,86 incl. btw" [ref=e184]':
+                - cell "01/03/2026 2026030002" [ref=e185]:
+                  - text: 01/03/2026
+                  - link "2026030002" [ref=e186] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/57201cd23782125d82e718971f5c14928be35c47
+                - cell "Inviplay B.V." [ref=e187]:
+                  - link "Inviplay B.V." [ref=e189] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/search?search%5Bclient_id%5D=4a6296bcef2f6c57a82af47909fe29ca01503e16
+                - 'cell "1Password kosten Inviplay Q4 2025 Nog niet betaald: verlopen" [ref=e190]':
+                  - link "1Password kosten Inviplay Q4 2025" [ref=e191] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/57201cd23782125d82e718971f5c14928be35c47
+                  - 'link "Nog niet betaald: verlopen" [ref=e194] [cursor=pointer]':
+                    - /url: /ondernemingen/lemon-it/inkomsten/57201cd23782125d82e718971f5c14928be35c47/invoice_payments
+                - cell [ref=e195]
+                - cell "Overig" [ref=e196]:
+                  - link "Overig" [ref=e198] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/search?search%5Btype_account_id%5D=1930337
+                - cell "€ 52,78 € 63,86 incl. btw" [ref=e199]:
+                  - generic [ref=e200]: € 52,78
+                  - generic [ref=e201]:
+                    - text: € 63,86
+                    - text: incl. btw
+              - 'row "01/03/2026 2026030003 Inviplay B.V. Azure kosten Inviplay Q4 2025 Nog niet betaald: verlopen Overig € 633,74 € 766,82 incl. btw" [ref=e202]':
+                - cell "01/03/2026 2026030003" [ref=e203]:
+                  - text: 01/03/2026
+                  - link "2026030003" [ref=e204] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/8f83a712c16f6f43ec57325efedeff9b38ec3bda
+                - cell "Inviplay B.V." [ref=e205]:
+                  - link "Inviplay B.V." [ref=e207] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/search?search%5Bclient_id%5D=4a6296bcef2f6c57a82af47909fe29ca01503e16
+                - 'cell "Azure kosten Inviplay Q4 2025 Nog niet betaald: verlopen" [ref=e208]':
+                  - link "Azure kosten Inviplay Q4 2025" [ref=e209] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/8f83a712c16f6f43ec57325efedeff9b38ec3bda
+                  - 'link "Nog niet betaald: verlopen" [ref=e212] [cursor=pointer]':
+                    - /url: /ondernemingen/lemon-it/inkomsten/8f83a712c16f6f43ec57325efedeff9b38ec3bda/invoice_payments
+                - cell [ref=e213]
+                - cell "Overig" [ref=e214]:
+                  - link "Overig" [ref=e216] [cursor=pointer]:
+                    - /url: /ondernemingen/lemon-it/inkomsten/search?search%5Btype_account_id%5D=1930337
+                - cell "€ 633,74 € 766,82 incl. btw" [ref=e217]:
+                  - generic [ref=e218]: € 633,74
+                  - generic [ref=e219]:
+                    - text: € 766,82
+                    - text: incl. btw
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - link "Openstaande facturen " [ref=e224] [cursor=pointer]:
+              - /url: /ondernemingen/lemon-it/inkomsten?selection=unpaid
+            - paragraph [ref=e226]:
+              - link "40 nog niet betaald," [ref=e227] [cursor=pointer]:
+                - /url: /ondernemingen/lemon-it/inkomsten?selection=unpaid
+              - link "waarvan 40 verlopen " [ref=e228] [cursor=pointer]:
+                - /url: /ondernemingen/lemon-it/inkomsten?selection=expired
+                - text: waarvan 40 verlopen
+                - generic [ref=e229]: 
+              - text: "Totaal openstaand bedrag: € 121.360,85"
+          - generic [ref=e231]:
+            - link "Onbetaalde uitgaven " [ref=e232] [cursor=pointer]:
+              - /url: /ondernemingen/lemon-it/kosten?selection=unpaid
+            - paragraph [ref=e234]:
+              - link "478 onbetaald" [ref=e235] [cursor=pointer]:
+                - /url: /ondernemingen/lemon-it/kosten?selection=unpaid
+              - text: "Totaal openstaand bedrag: € 31.783,23"
+      - generic [ref=e238]:
+        - generic [ref=e240]:
+          - link "Omzet " [ref=e241] [cursor=pointer]:
+            - /url: /ondernemingen/lemon-it/accounts/revenue
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e248] [cursor=pointer]: Oplopend 
+              - generic [ref=e250] [cursor=pointer]: Omzet 
+              - generic [ref=e252] [cursor=pointer]: Per maand 
+            - generic [ref=e255]:
+              - application "line chart with 1 data series" [ref=e256]:
+                - generic [ref=e259]:
+                  - generic "€ 800,00" [ref=e260]
+                  - generic "€ 600,00" [ref=e261]
+                  - generic "€ 400,00" [ref=e262]
+                  - generic "€ 200,00" [ref=e263]
+                  - generic "€ 0,00" [ref=e264]
+                - generic [ref=e284]:
+                  - generic "jan 2026" [ref=e285]
+                  - generic "feb 2026" [ref=e286]
+                  - generic "mrt 2026" [ref=e287]
+                  - generic "apr 2026" [ref=e288]
+                  - generic "mei 2026" [ref=e289]
+                  - generic "jun 2026" [ref=e290]
+                  - generic "jul 2026" [ref=e291]
+                  - generic "aug 2026" [ref=e292]
+                  - generic "sep 2026" [ref=e293]
+                  - generic "okt 2026" [ref=e294]
+                  - generic "nov 2026" [ref=e295]
+                  - generic "dec 2026" [ref=e296]
+              - tooltip: ●
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - link "Winst & Verlies " [ref=e299] [cursor=pointer]:
+              - /url: /ondernemingen/lemon-it/dashboard/result
+            - table [ref=e301]:
+              - rowgroup [ref=e302]:
+                - row "Omzet € 736,85" [ref=e303] [cursor=pointer]:
+                  - cell "Omzet" [ref=e304]:
+                    - link "Omzet" [ref=e306]:
+                      - /url: /ondernemingen/lemon-it/accounts/revenue
+                  - cell "€ 736,85" [ref=e307]
+              - rowgroup [ref=e308]:
+                - row "Kosten € 70,84" [ref=e309] [cursor=pointer]:
+                  - cell "Kosten" [ref=e310]:
+                    - link "Kosten" [ref=e312]:
+                      - /url: /ondernemingen/lemon-it/accounts/costs
+                  - cell "€ 70,84" [ref=e313]
+              - rowgroup [ref=e314]:
+                - row "Resultaat € 666,01" [ref=e315] [cursor=pointer]:
+                  - cell "Resultaat" [ref=e316]:
+                    - link "Resultaat" [ref=e318]:
+                      - /url: /ondernemingen/lemon-it/accounts/profit
+                  - cell "€ 666,01" [ref=e319]
+          - generic [ref=e320]:
+            - link "Balans eind 2026 " [ref=e321] [cursor=pointer]:
+              - /url: /ondernemingen/lemon-it/dashboard/balans
+            - generic [ref=e323]:
+              - table [ref=e325]:
+                - rowgroup [ref=e326]:
+                  - row "Vaste activa € 0,00" [ref=e327] [cursor=pointer]:
+                    - cell "Vaste activa" [ref=e328]:
+                      - link "Vaste activa" [ref=e330]:
+                        - /url: /ondernemingen/lemon-it/accounts/fixed_assets
+                    - cell "€ 0,00" [ref=e331]
+                - rowgroup [ref=e332]:
+                  - row "Vlottende activa € 121.360,85" [ref=e333] [cursor=pointer]:
+                    - cell "Vlottende activa" [ref=e334]:
+                      - link "Vlottende activa" [ref=e336]:
+                        - /url: /ondernemingen/lemon-it/accounts/current_assets
+                    - cell "€ 121.360,85" [ref=e337]
+                - rowgroup [ref=e338]:
+                  - row "Liquide middelen € 140.054,84" [ref=e339] [cursor=pointer]:
+                    - cell "Liquide middelen" [ref=e340]:
+                      - link "Liquide middelen" [ref=e342]:
+                        - /url: /ondernemingen/lemon-it/accounts/liquid_assets
+                    - cell "€ 140.054,84" [ref=e343]
+                - rowgroup [ref=e344]:
+                  - row [ref=e345]:
+                    - cell [ref=e346]
+                    - cell [ref=e347]
+                - rowgroup [ref=e348]:
+                  - row "Activa € 261.415,69" [ref=e349] [cursor=pointer]:
+                    - cell "Activa" [ref=e350]:
+                      - link "Activa" [ref=e352]:
+                        - /url: /ondernemingen/lemon-it/accounts/activa
+                    - cell "€ 261.415,69" [ref=e353]
+              - table [ref=e355]:
+                - rowgroup [ref=e356]:
+                  - row "Eigen vermogen € 197.157,59" [ref=e357] [cursor=pointer]:
+                    - cell "Eigen vermogen" [ref=e358]:
+                      - link "Eigen vermogen" [ref=e360]:
+                        - /url: /ondernemingen/lemon-it/accounts/equity
+                    - cell "€ 197.157,59" [ref=e361]
+                - rowgroup [ref=e362]:
+                  - row "Langlopende schulden € 0,00" [ref=e363] [cursor=pointer]:
+                    - cell "Langlopende schulden" [ref=e364]:
+                      - link "Langlopende schulden" [ref=e366]:
+                        - /url: /ondernemingen/lemon-it/accounts/long_term_debt
+                    - cell "€ 0,00" [ref=e367]
+                - rowgroup [ref=e368]:
+                  - row "Kortlopende schulden € 32.559,49" [ref=e369] [cursor=pointer]:
+                    - cell "Kortlopende schulden" [ref=e370]:
+                      - link "Kortlopende schulden" [ref=e372]:
+                        - /url: /ondernemingen/lemon-it/accounts/short_term_debt
+                    - cell "€ 32.559,49" [ref=e373]
+                - rowgroup [ref=e374]:
+                  - row "Crediteuren € 31.698,61" [ref=e375] [cursor=pointer]:
+                    - cell "Crediteuren" [ref=e376]:
+                      - link "Crediteuren" [ref=e378]:
+                        - /url: /ondernemingen/lemon-it/accounts/creditors
+                    - cell "€ 31.698,61" [ref=e379]
+                - rowgroup [ref=e380]:
+                  - row "Passiva € 261.415,69" [ref=e381] [cursor=pointer]:
+                    - cell "Passiva" [ref=e382]:
+                      - link "Passiva" [ref=e384]:
+                        - /url: /ondernemingen/lemon-it/accounts/passiva
+                    - cell "€ 261.415,69" [ref=e385]
+      - generic [ref=e388]:
+        - generic [ref=e389]:   Deel Rompslomp met een collega
+        - generic [ref=e391]:
+          - paragraph [ref=e393]:
+            - text: Raad Rompslomp aan bij een collega en krijg
+            - strong [ref=e394]: €15,- korting
+            - text: op je volgende factuur!
+          - link "Bekijk de actie" [ref=e396] [cursor=pointer]:
+            - /url: /invites/new
