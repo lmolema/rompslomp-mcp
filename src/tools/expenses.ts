@@ -7,8 +7,8 @@ const expenseLineSchema = z.object({
   description: z.string().optional().describe("Description (max 255 chars)"),
   extended_description: z.string().optional(),
   price_per_unit: z.string().optional().describe("Price excl. VAT as string"),
-  vat_type_id: z.number().optional(),
-  vat_rate: z.string().optional(),
+  vat_type_id: z.number().optional().describe("VAT type ID - use list_vat_types to find IDs (e.g. vat_reverse_charged for verlegde BTW)"),
+  vat_rate: z.string().optional().describe("Custom VAT rate as decimal string, only used when vat_type is 'vat_custom'"),
   quantity: z.string().optional(),
   product_id: z.number().optional(),
   account_id: z.number().optional(),
@@ -22,13 +22,22 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
     "List expenses (uitgaven) for a company",
     {
       company_id: z.string().describe("Company ID"),
+      selection: z.enum(["all", "unpaid", "investments", "overpaid", "credit_invoices"]).optional().describe("Filter by status (default: all)"),
+      search_from: z.string().optional().describe("Minimum date filter YYYY-MM-DD"),
+      search_till: z.string().optional().describe("Maximum date filter YYYY-MM-DD"),
       page: z.number().optional(),
       per_page: z.number().optional(),
     },
-    async ({ company_id, page, per_page }) => {
+    async ({ company_id, selection, search_from, search_till, page, per_page }) => {
       const { data, pagination } = await client.get<{ expenses: unknown[] }>(
         `/companies/${company_id}/expenses`,
-        { page: page?.toString(), per_page: per_page?.toString() }
+        {
+          selection,
+          "search[from]": search_from,
+          "search[till]": search_till,
+          page: page?.toString(),
+          per_page: per_page?.toString(),
+        }
       );
       return {
         content: [{ type: "text", text: JSON.stringify({ ...data, pagination }, null, 2) }],
@@ -53,7 +62,7 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
 
   server.tool(
     "create_expense",
-    "Create a new expense (uitgave/inkoopfactuur)",
+    "Create a new expense (uitgave/inkoopfactuur). For reverse-charged VAT (verlegde BTW), first call list_vat_types to get the vat_type_id for 'vat_reverse_charged', then set that as vat_type_id on each invoice_line.",
     {
       company_id: z.string().describe("Company ID"),
       expense: z.object({
