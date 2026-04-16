@@ -62,7 +62,7 @@ export function registerExpenseTools(server: McpServer, client: RompslompClient)
 
   server.tool(
     "create_expense",
-    "Create a new expense (uitgave/inkoopfactuur). NOTE: Reverse-charged VAT (verlegde BTW) is NOT supported by the Rompslomp public API — the required 'vat_reverse_charged' field is not whitelisted. Expenses with verlegde BTW must be created manually in the Rompslomp web UI. For regular expenses, set vat_type_id on each invoice_line (use list_vat_types to find IDs).",
+    "Create a new expense (uitgave/inkoopfactuur). LIMITATIONS: 1) Reverse-charged VAT (verlegde BTW) is NOT supported by the Rompslomp API. 2) File attachments (PDF etc.) are NOT supported on expenses via the API. Both must be done manually in the Rompslomp web UI. For regular expenses, set vat_type_id on each invoice_line (use list_vat_types to find IDs).",
     {
       company_id: z.string().describe("Company ID"),
       expense: z.object({
